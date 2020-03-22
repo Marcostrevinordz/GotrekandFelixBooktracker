@@ -1,0 +1,117 @@
+/* {
+	border: 1px solid red;
+	border-style: solid;
+	border-color: red; 
+	border-width: 5px;
+}
+
+*/
+
+body, html {
+	height: 100%;
+	font-family: Calibri, sans-serif;
+}
+
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/medievalground.jpg");
+	height: 25%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+author {
+	font-style:italic;
+}
+
+img {
+	height:100px
+	width=100px;
+}
+
+.book {
+	background-color: black;
+	width:150px;
+	height: 250px;
+
+}
+
+.pending {
+	color: Orange;
+}
+
+.done {
+	color: green;
+}
+
+
+h3 {
+	font-family: Calibri, sans-serif;
+}
+
+table {
+	table-layout: auto;
+	width: 100%;
+	border-bottom: 1px solid black;
+	padding:5px;
+}
+
+tr {
+	vertical-align: top;
+}
+
+progress {
+	text-align:left;
+	height: 1.5em;
+	width: 100%;
+
+	-webkit-appearance: none;
+	border: none;
+}
+
+progress:before {
+	content: attr(data-label);
+	font-size: 0.8em;
+	vertical-align: 0;
+}
+
+progress::-webkit-progress-bar {
+	background-color: #c9c9c9;
+	/*border: 1px solid black;*/
+	border-radius: 5px;
+	border: 1px solid grey;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset
+}
+
+progress::-webkit-progress-value {
+	background-color: #7cc4ff;
+	height: 1.4em;
+	border-radius: 5px;
+	border-right: 1px solid grey;
+}
+
+progress::-moz-progress-bar {
+	background-color: #7cc4ff;
+}
+
+select {
+	border: 1px solid grey;
+	border-radius: 5px;
+
+}
+
+button {
+	border-radius: 5px;
+	width: auto;
+}
+

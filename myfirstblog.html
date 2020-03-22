@@ -2,23 +2,320 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>"My first Blog"</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Gotrek and Felix</title>
   </head>
   
   <body>
-    <h1>"My First Blo"</h1>
-    <h2>" MY First Article"</h2>
-    
-    <section>
-      <article>
-        <p>In this first parragrap i would like to start using some<b>bold</b> or <strong>strong</<strong> word, due that i'm just begginer
-        in all of this of <i>coding</i>
-      </article>
-    </section>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Gotrek and Felix</h1>    
+        <p>Book Tracker v1.0</p>
+        <button>Add new book</button>
+        <button>Update</button>
+      </div>
+    </div>
+
+      <h2>"My List"</h2>
+
+        <table>
+          <tr>
+            <th>
+              <td> <a href="https://whfb.lexicanum.com/wiki/Trollslayer_(novel)" target="_blank"><img class="book" src="images/books/Trollslayer.jpg" alt="Trollslayer"></a>
+              </td>
+              <td>
+                <h3>Trollslayer</h3>
+                <p>Author: <a href="https://en.wikipedia.org/wiki/William_King_(author)" target="_blank"><author>William King</author></a>
+                  <br>First released: Aug 1999</p>
+                  <p class="done">Completed on: Aug 2019</p>
+                <p><progress id="complete" value="100" max="100" data-label="Status"</progress></p>
+                  <br>
+                <label id="Progress"></label>
+                <select>
+                  <option>Choose</option>
+                  <option style="color:red">0%</option>
+                  <option style="color:red">10%</option>
+                  <option style="color:orange">25%</option>
+                  <option style="color:orange">50%</option>
+                  <option style="color:brown">75%</option>
+                  <option style="color:brown">90%</option>
+                  <option style="color:green">100%</option>
+                </select>
+              </td>
+            </th>
+            <th>
+              <td> <a href="https://whfb.lexicanum.com/wiki/Skavenslayer_(novel)" target="_blank"><img class="book" src="images/books/skavenslayer.jpg" alt="Skavenslayer"></a>
+              </td>
+              <td>
+                <h3>Skavenslayer</h3>
+                <p>Author: <a href="https://en.wikipedia.org/wiki/William_King_(author)" target="_blank"><author>William King</author></a>
+                  <br>First released: Sep 1999</p>
+                  <p class="done">Completed on: Dec 2019</p>
+                <p><progress id="complete" value="100" max="100" data-label="Status"</progress></p>
+                  <br>
+                <label id="Progress"></label>
+                <select>
+                  <option>Choose</option>
+                  <option style="color:red">0%</option>
+                  <option style="color:red">10%</option>
+                  <option style="color:orange">25%</option>
+                  <option style="color:orange">50%</option>
+                  <option style="color:brown">75%</option>
+                  <option style="color:brown">90%</option>
+                  <option style="color:green">100%</option>
+                </select>
+              </td>
+            </th>
+            <th>
+              <td> <a href="https://whfb.lexicanum.com/wiki/Daemonslayer_(Novel)" target="_blank"><img class="book" src="images/books/daemonslayer.jpg" alt="Daemonslayer"></a>
+              </td>
+              <td>
+                <h3>Daemonslayer</h3>
+                <p>Author: <a href="https://en.wikipedia.org/wiki/William_King_(author)" target="_blank"><author>William King</author></a>
+                  <br>First released: Oct 1999</p>
+                  <p class="pending">Completed on: Pending</p>
+                <p><progress id="incomplete" value="90" max="100" data-label="Status"</progress></p>
+                  <br>
+                <label id="Progress"></label>
+                <select>
+                  <option>Choose</option>
+                  <option style="color:red">0%</option>
+                  <option style="color:red">10%</option>
+                  <option style="color:orange">25%</option>
+                  <option style="color:orange">50%</option>
+                  <option style="color:brown">75%</option>
+                  <option style="color:brown">90%</option>
+                  <option style="color:green">100%</option>
+                </select>
+              </td>
+            </th>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>
+              <td> <a href="https://whfb.lexicanum.com/wiki/Dragonslayer_(novel)" target="_blank"><img class="book" src="images/books/dragonslayer.jpg" alt="Dragonslayer"></a>
+              </td>
+              <td>
+                <h3>Dragonslayer</h3>
+                <p>Author: <a href="https://en.wikipedia.org/wiki/William_King_(author)" target="_blank"><author>William King</author></a>
+                  <br>First released: Sep 2000</p>
+                  <p class="pending">Completed on: Pending</p>
+                <p><progress id="incomplete" value="0" max="100" data-label="Status"</progress></p>
+                  <br>
+                <label id="Progress"></label>
+                <select>
+                  <option>Choose</option>
+                  <option style="color:red">0%</option>
+                  <option style="color:red">10%</option>
+                  <option style="color:orange">25%</option>
+                  <option style="color:orange">50%</option>
+                  <option style="color:brown">75%</option>
+                  <option style="color:brown">90%</option>
+                  <option style="color:green">100%</option>
+                </select>
+              </td>
+            </th>
+            <th>
+              <td> <a href="https://whfb.lexicanum.com/wiki/Beastslayer_(novel)" target="_blank"><img class="book" src="images/books/beastslayer.jpg" alt="Beastslayer"></a>
+              </td>
+              <td>
+                <h3>Beastslayer</h3>
+                <p>Author: <a href="https://en.wikipedia.org/wiki/William_King_(author)" target="_blank"><author>William King</author></a>
+                  <br>First released: Feb 2001</p>
+                  <p class="pending">Completed on: Pending</p>
+                <p><progress id="Incomplete" value="0" max="100" data-label="Status"</progress></p>
+                  <br>
+                <label id="Progress"></label>
+                <select>
+                  <option>Choose</option>
+                  <option style="color:red">0%</option>
+                  <option style="color:red">10%</option>
+                  <option style="color:orange">25%</option>
+                  <option style="color:orange">50%</option>
+                  <option style="color:brown">75%</option>
+                  <option style="color:brown">90%</option>
+                  <option style="color:green">100%</option>
+                </select>
+              </td>
+            </th>
+            <th>
+              <td> <a href="https://whfb.lexicanum.com/wiki/Vampireslayer_(Novel)" target="_blank"><img class="book" src="images/books/Vampireslayer.jpg" alt="Vampireslayer"></a>
+              </td>
+              <td>
+                <h3>Vampireslayer</h3>
+                <p>Author: <a href="https://en.wikipedia.org/wiki/William_King_(author)" target="_blank"><author>William King</author></a>
+                  <br>First released: Sep 2001</p>
+                  <p class="pending">Completed on: Pending</p>
+                <p><progress id="incomplete" value="0" max="100" data-label="Status"</progress></p>
+                  <br>
+                <label id="Progress"></label>
+                <select>
+                  <option>Choose</option>
+                  <option style="color:red">0%</option>
+                  <option style="color:red">10%</option>
+                  <option style="color:orange">25%</option>
+                  <option style="color:orange">50%</option>
+                  <option style="color:brown">75%</option>
+                  <option style="color:brown">90%</option>
+                  <option style="color:green">100%</option>
+                </select>
+              </td>
+            </th>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>
+              <td> <a href="https://whfb.lexicanum.com/wiki/Giantslayer_(novel)" target="_blank"><img class="book" src="images/books/Giantslayer.jpg" alt="Giantslayer"></a>
+              </td>
+              <td>
+                <h3>Giantslayer</h3>
+                <p>Author: <a href="https://en.wikipedia.org/wiki/William_King_(author)" target="_blank"><author>William King</author></a>
+                  <br>First released: Apr 2003</p>
+                  <p class="pending">Completed on: Pending</p>
+                <p><progress id="incomplete" value="0" max="100" data-label="Status"</progress></p>
+                  <br>
+                <label id="Progress"></label>
+                <select>
+                  <option>Choose</option>
+                  <option style="color:red">0%</option>
+                  <option style="color:red">10%</option>
+                  <option style="color:orange">25%</option>
+                  <option style="color:orange">50%</option>
+                  <option style="color:brown">75%</option>
+                  <option style="color:brown">90%</option>
+                  <option style="color:green">100%</option>
+                </select>
+              </td>
+            </th>
+            <th>
+              <td> <a href="https://whfb.lexicanum.com/wiki/Orcslayer_(novel)" target="_blank"><img class="book" src="images/books/Orcslayer.jpg" alt="Orcslayer"></a>
+              </td>
+              <td>
+                <h3>Orcslayer</h3>
+                <p>Author: <a href="https://en.wikipedia.org/wiki/Nathan_Long_(author)" target="_blank"><author>Nathan Long</author></a>
+                  <br>First released: Oct 2006</p>
+                  <p class="pending">Completed on: Pending</p>
+                <p><progress id="Incomplete" value="0" max="100" data-label="Status"</progress></p>
+                  <br>
+                <label id="Progress"></label>
+                <select>
+                  <option>Choose</option>
+                  <option style="color:red">0%</option>
+                  <option style="color:red">10%</option>
+                  <option style="color:orange">25%</option>
+                  <option style="color:orange">50%</option>
+                  <option style="color:brown">75%</option>
+                  <option style="color:brown">90%</option>
+                  <option style="color:green">100%</option>
+                </select>
+              </td>
+            </th>
+            <th>
+              <td> <a href="https://whfb.lexicanum.com/wiki/Manslayer_(Novel)" target="_blank"><img class="book" src="images/books/Manslayer.jpg" alt="Manslayer"></a>
+              </td>
+              <td>
+                <h3>Manslayer</h3>
+                <p>Author: <a href="https://en.wikipedia.org/wiki/Nathan_Long_(author)" target="_blank"><author>Nathan Long</author></a>
+                  <br>First released: Oct 2007</p>
+                  <p class="pending">Completed on: Pending</p>
+                <p><progress id="incomplete" value="0" max="100" data-label="Status"</progress></p>
+                  <br>
+                <label id="Progress"></label>
+                <select>
+                  <option>Choose</option>
+                  <option style="color:red">0%</option>
+                  <option style="color:red">10%</option>
+                  <option style="color:orange">25%</option>
+                  <option style="color:orange">50%</option>
+                  <option style="color:brown">75%</option>
+                  <option style="color:brown">90%</option>
+                  <option style="color:green">100%</option>
+                </select>
+              </td>
+            </th>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>
+              <td> <a href="https://whfb.lexicanum.com/wiki/Elfslayer_(novel)" target="_blank"><img class="book" src="images/books/Elfslayer.jpg" alt="Elfslayer"></a>
+              </td>
+              <td>
+                <h3>Elfslayer</h3>
+                <p>Author: <a href="https://en.wikipedia.org/wiki/Nathan_Long_(author)" target="_blank"><author>Nathan Long</author></a>
+                  <br>First released: Oct 2008</p>
+                  <p class="pending">Completed on: Pending</p>
+                <p><progress id="incomplete" value="0" max="100" data-label="Status"</progress></p>
+                  <br>
+                <label id="Progress"></label>
+                <select>
+                  <option>Choose</option>
+                  <option style="color:red">0%</option>
+                  <option style="color:red">10%</option>
+                  <option style="color:orange">25%</option>
+                  <option style="color:orange">50%</option>
+                  <option style="color:brown">75%</option>
+                  <option style="color:brown">90%</option>
+                  <option style="color:green">100%</option>
+                </select>
+              </td>
+            </th>
+            <th>
+              <td> <a href="https://whfb.lexicanum.com/wiki/Shamanslayer_(novel)" target="_blank"><img class="book" src="images/books/Shamanslayer.jpg" alt="Shamanslayer"></a>
+              </td>
+              <td>
+                <h3>Shamanslayer</h3>
+                <p>Author: <a href="https://en.wikipedia.org/wiki/Nathan_Long_(author)" target="_blank"><author>Nathan Long</author></a>
+                  <br>First released: Oct 2009</p>
+                  <p class="pending">Completed on: Pending</p>
+                <p><progress id="Incomplete" value="0" max="100" data-label="Status"</progress></p>
+                  <br>
+                <label id="Progress"></label>
+                <select>
+                  <option>Choose</option>
+                  <option style="color:red">0%</option>
+                  <option style="color:red">10%</option>
+                  <option style="color:orange">25%</option>
+                  <option style="color:orange">50%</option>
+                  <option style="color:brown">75%</option>
+                  <option style="color:brown">90%</option>
+                  <option style="color:green">100%</option>
+                </select>
+              </td>
+            </th>
+            <th>
+              <td> <a href="https://whfb.lexicanum.com/wiki/Zombieslayer_(Novel)" target="_blank"><img class="book" src="images/books/Zombieslayer.jpg" alt="Zombieslayer"></a>
+              </td>
+              <td>
+                <h3>Zombieslayer</h3>
+                <p>Author: <a href="https://en.wikipedia.org/wiki/Nathan_Long_(author)" target="_blank"><author>Nathan Long</author></a>
+                  <br>First released: Nov 2010</p>
+                  <p class="pending">Completed on: Pending</p>
+
+                <p><progress id="incomplete" value="0" max="100" data-label="Status"</progress></p>
+                  <br>
+                <label id="Progress"></label>
+                <select>
+                  <option>Choose</option>
+                  <option style="color:red">0%</option>
+                  <option style="color:red">10%</option>
+                  <option style="color:orange">25%</option>
+                  <option style="color:orange">50%</option>
+                  <option style="color:brown">75%</option>
+                  <option style="color:brown">90%</option>
+                  <option style="color:green">100%</option>
+                </select>
+              </td>
+            </th>
+          </tr>
+        </table>
+      
   </body>
-  
+    
   <footer>
-  
+    <p>My footers, Marcos Treviño Rodriguez</p>
   </footer>
 
 </html>
