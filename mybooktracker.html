@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>   
+
     <title>Gotrek and Felix</title>
   </head>
   
@@ -12,7 +14,7 @@
         <h1>Gotrek and Felix</h1>    
         <p>Book Tracker v1.0</p>
         <button>Add new book</button>
-        <button>Update</button>
+        <button onclick= "myfunction()">Updatss</button>
       </div>
     </div>
 
@@ -27,7 +29,7 @@
                 <h3>Trollslayer</h3>
                 <p>Author: <a href="https://en.wikipedia.org/wiki/William_King_(author)" target="_blank"><author>William King</author></a>
                   <br>First released: Aug 1999</p>
-                  <p class="done">Completed on: Aug 2019</p>
+                  <p class="done" id ="Demo">Completed on: Aug 2019</p>
                 <p><progress id="complete" value="100" max="100" data-label="Status"</progress></p>
                   <br>
                 <label id="Progress"></label>
@@ -312,6 +314,7 @@
           </tr>
         </table>
       
+
   </body>
     
   <footer>

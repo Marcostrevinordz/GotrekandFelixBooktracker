@@ -1,10 +1,6 @@
 /* {
 	border: 1px solid red;
-	border-style: solid;
-	border-color: red; 
-	border-width: 5px;
 }
-
 */
 
 body, html {
@@ -30,6 +26,7 @@ body, html {
 	color: white;
 }
 
+
 author {
 	font-style:italic;
 }
@@ -52,6 +49,7 @@ img {
 
 .done {
 	color: green;
+
 }
 
 
