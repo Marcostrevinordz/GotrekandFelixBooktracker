@@ -1,5 +1,4 @@
-	var get_date = "Type the date";
-
+var get_date = "Type the date";
 
 function myfunction() {
 	var get_words = prompt("Completed on?");
