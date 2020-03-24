@@ -25,19 +25,32 @@ Book reading tracker
     <p>OK</p>
   <li>Zombieslayer by Nathan Long (November 2010)</li>
     <p>OK</p>
+</ol>
+<ol>
+  <li>Road of Skulls by Josh Reynolds (January 2013)</li>
+    <p>pending</p>
+  <li>City of the Damned by David Guymer (September 2013)</li>
+    <p>pending</p>
+  <li>The Serpent Queen by Josh Reynolds (April 2014)</li>
+    <p>pending</p>
+  <li>Kinslayer by David Guymer (September 2014)</li>
+    <p>pending</p>
+  <li>Slayer by David Guymer (May 2015)</li>
+    <p>pending</p>
+</ol>
 
+<h3>Checklist</h3>
+<ol>
+  <li>Add progress bar to each one of the links in the ist</li>
+   <p>Ok</p>
+  <li>Add links to authors and books</li>
+    <p>Ok</p>
+  <li>Check the images root folders</li>
+    <p>Ok</p>
 
-Road of Skulls by Josh Reynolds (January 2013)
-City of the Damned by David Guymer (September 2013)
-The Serpent Queen by Josh Reynolds (April 2014)
-Kinslayer by David Guymer (September 2014)
-Slayer by David Guymer (May 2015)
-
-Checklist
-1 Ad progress bar to each one of the links in the ist
-2 add links to authors and books
-3 Check the images root folders
-
-4 Javascript
-Add max pages
-add inut by user
+<h3>Javascript</h3>
+<ol>
+  <li>Add max pages</li>
+  <p>Pending</p>
+  <li>add inut by user</li>
+   <p>In Process: Working with Prompt to get input, still ned to know if can be saved</p>
