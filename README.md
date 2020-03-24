@@ -1,19 +1,30 @@
 # GotrekandFelixBooktracker
 Book reading tracker
-
-OK Trollslayer by William King (August 1999)
-OK Skavenslayer by William King (September 1999)
-OK Daemonslayer by William King (October 1999)
-OK Dragonslayer by William King (September 2000)
-OK Beastslayer by William King (February 2001)
-OK Vampireslayer by William King (September 2001)
-Giantslayer by William King (April 2003)
-
-Orcslayer by Nathan Long (October 2006)
-Manslayer by Nathan Long (October 2007)
-Elfslayer by Nathan Long (October 2008)
-Shamanslayer by Nathan Long (October 2009)
-Zombieslayer by Nathan Long (November 2010)
+<ol>
+  <li>Trollslayer by William King (August 1999)</li
+    <p>OK</p>
+  <li>Skavenslayer by William King (September 1999)</li>
+    <p>OK</p>
+  <li>Daemonslayer by William King (October 1999)</li>
+    <p>OK</p>
+  <li>Dragonslayer by William King (September 2000)</li>
+    <p>OK</p>
+  <li>Beastslayer by William King (February 2001)</li>
+    <p>OK</p>
+  <li>Vampireslayer by William King (September 2001)</li>
+    <p>OK</p>
+  <li>Giantslayer by William King (April 2003)</li>
+    <p>OK</p>
+  <li>Orcslayer by Nathan Long (October 2006)</li>
+    <p>OK</p>
+  <li>Manslayer by Nathan Long (October 2007)</li>
+    <p>OK</p>
+  <li>Elfslayer by Nathan Long (October 2008)</li>
+    <p>OK</p>
+  <li>Shamanslayer by Nathan Long (October 2009)</li>
+    <p>OK</p>
+  <li>Zombieslayer by Nathan Long (November 2010)</li>
+    <p>OK</p>
 
 
 Road of Skulls by Josh Reynolds (January 2013)
