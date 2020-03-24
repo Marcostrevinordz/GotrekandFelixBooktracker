@@ -1,5 +1,5 @@
 # GotrekandFelixBooktracker
-<u>Book reading tracker</u>
+<b>Book reading tracker</b>
 <ol>
   <li>Trollslayer by William King (August 1999)</li
     <p>OK</p>
