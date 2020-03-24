@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 	var get_date = "Type the date";
 
 
