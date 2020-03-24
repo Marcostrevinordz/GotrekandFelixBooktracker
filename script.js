@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 	var get_date = "Type the date";
 
 
@@ -10,3 +11,4 @@ function myfunction() {
 	document.getElementById("Trollslayer").innerHTML = "Completed on: " + get_date;
 	document.getElementById("Trollslayer").className = "done";
 }
+>>>>>>> 0a4994c9547377a690dc11885e745f1fd05b2a33
